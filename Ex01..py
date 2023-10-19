@@ -1,6 +1,7 @@
 def eprimo(n):
     divisor = n
     contador = 0
+    # Conta quantos números são multiplos de n
     while divisor >= 1:
         if n % divisor == 0:
             contador += 1

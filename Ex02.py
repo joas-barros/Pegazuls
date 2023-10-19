@@ -7,7 +7,7 @@ def fibonacci(n):
 
 def imprimirsequencia(n):
     for i in range(1, n + 1):
-        print(fibonacci(i), end=" ")
+        print(fibonacci(i), end=" ")  # (end =" ") para manter na linha a cada iteração
 
 
 if __name__ == '__main__':

@@ -11,4 +11,4 @@ for num1 in range(100, 1000):
         if palindromo(produto) and produto > maior:
             maior = produto
 
-print(maior)
+print(f"o maior número palíndromo que é o produto de dois números de 3 dígitos é {maior}")
