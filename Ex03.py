@@ -16,6 +16,6 @@ while True:
 print("Números únicos na lista: ")
 # Iteramos cada item de lista atraves de uma estrutura de repetição
 for item in lista:
-    # .count() conta o número de ocorrencias de item, caso ele só tenha aparecido só uma vez, imprimimos
+    # .count() conta o número de vezes que o item apareceu, caso ele só tenha aparecido só uma vez, imprimimos
     if lista.count(item) == 1:
         print(item, end=" ")
